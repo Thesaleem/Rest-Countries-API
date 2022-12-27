@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class='index'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/spinkit/spinkit.css">
+
+    <link rel="stylesheet" href="../css/output.css">
+    <!-- <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="../script.js"></script>
+    <script defer type="module" src="../src/js/controller.js"></script>
+    <title>Rest Countries API</title>
+</head>
+<body class="bg-lm-vlg dark:bg-dm-vdb text-lm-vdb dark:text-white font-nunito relative min-h-screen">
+    <header class="bg-white dark:bg-dm-db
+        flex justify-between px-5 py-8  text-sm shadow-custom 
+        dark:shadow-none md:px-16 md:py-6 md:text-base">
+        <h3 class="font-semibold tracking-wide">Where in the world?</h3>
+        <div class="mode flex items-center justify-center cursor-pointer">
+            <ion-icon name="moon-outline" class="mode-icon"></ion-icon>
+            <span class="ml-2 mode-text">Dark Mode</span>
+        </div>
+    </header>
+    <section class="px-5 py-8 md:px-16 md:py-6">
+        <div class="md:flex justify-between items-center font-light">
+            <form action="" class="search relative text-lm-dg">
+                <input type="search" class="search-field dark:bg-dm-db placeholder:text-lm-dg dark:placeholder:text-white dark:shadow-none w-full md:w-[350px] lg:w-[500px] h-8 py-6 pl-14 pr-6 shadow-custom rounded-lg focus:outline-none" placeholder="Search for a country...">
+                <i class="fa fa-search absolute top-4 left-6" aria-hidden="true"></i> 
+                <span class="absolute top-4 right-6 cursor-pointer cancel">&#10005;</span> 
+            </form>
+            <div class="filter bg-white dark:bg-dm-db relative mt-10 md:mt-0 px-7 w-60 h-14 rounded-lg flex justify-between items-center dark:shadow-none shadow-custom cursor-pointer">
+                <p class="filtered-region">Filter by Region</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+                <div class="region-container hidden bg-white dark:bg-dm-db px-7 py-4 leading-7 w-60 rounded-lg dark:shadow-none shadow-custom absolute top-16 left-0 z-10">
+                    <p class="hover:underline region">Africa</p>
+                    <p class="hover:underline region">America</p>
+                    <p class="hover:underline region">Asia</p>
+                    <p class="hover:underline region">Europe</p>
+                    <p class="hover:underline region">Oceania</p>
+                </div>
+            </div>
+        </div>
+
+
+       <div class="countries-container flex flex-col justify-center items-center gap-10 md:flex-row md:flex-wrap md:gap-[50px] my-10">
+       
+            <div class="sk-chase sk-center absolute top-2/4 left-2/4 translate-x-1/2 translate-y-1/2">
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div>
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div>
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div>
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div>
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div>
+                <div class="sk-chase-dot before:bg-black before:dark:bg-white"></div> 
+            </div>
+           <!-- <div class="bg-white dark:bg-dm-db  w-[280px] min-h-[350px] dark:shadow-none shadow-custom border border-black border-solid rounded-lg">
+                <div class="border border-solid border-red-500 h-[160px]">
+                    <img src="" alt="">
+                </div>
+                <div class="p-6 pl-7 leading-8">
+                    <h2 class="font-extrabold text-lg mb-3">Country</h2>
+                    <p class="font-medium">Population: <span class="font-light">1,000,000</span></p>
+                    <p class="font-medium">Region: <span class="font-light">Continent</span></p>
+                    <p class="font-medium">Capital: <span class="font-light">City</span></p>
+                </div>
+           </div> -->  
+       </div>
+       <div class="flex justify-end mt-4">
+           <div class="pagination relative py-6  w-60 ">
+                <!-- <button class="btn btn--prev countries-btn flex justify-center items-center absolute top-0 left-0">
+                    <ion-icon name="arrow-back-outline" class="pl-1"></ion-icon>
+                    <span class="ml-2 pr-2">Page 1</span>
+                </button>
+                <button  class="btn btn--next countries-btn flex justify-center items-center absolute top-0 right-0">
+                    <span  class="pl-1">Page 3</span>
+                    <ion-icon name="arrow-forward-outline" class="ml-2 pr-2"></ion-icon>
+                </button> -->
+           </div>
+       </div>
+    </section>
+</body>
+</html>
+
+
+
