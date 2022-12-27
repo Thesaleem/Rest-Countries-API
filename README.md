@@ -6,7 +6,6 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -30,12 +29,11 @@ Users should be able to:
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode *(optional)*
 
-### Screenshot
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Page](https://github.com/Thesaleem/Rest-Countries-API)
+- Live Site URL: [Rest Countries](https://restcountries-s.netlify.app/)
 
 ## My process
 
@@ -44,13 +42,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS
 - Flexbox
-- [SpinKit Library] (https://tobiasahlin.com/spinkit/) - Loading animations
+- [SpinKit Library](https://tobiasahlin.com/spinkit/) - Loading animations
 - Mobile-first workflow
 - Vanilla Javascript
 
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 
 ### What I learned
@@ -73,7 +69,7 @@ Moving forward, I'd love to build more projects to understand the architecture b
 
 ## Author
 
-- Website - [Saleem](https://github.com/Thesaleem)
+- Website - [Saleem's GitHub](https://github.com/Thesaleem)
 - Frontend Mentor - [@TheSaleem](https://www.frontendmentor.io/profile/thesaleem)
 - Twitter - [@TheSaleem_](https://www.twitter.com/thesaleem_)
 

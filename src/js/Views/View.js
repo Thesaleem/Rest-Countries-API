@@ -1,4 +1,4 @@
-
+import error from "url:../../../pages/page_not_found.svg";
 export default class View {
     _htmlElement = document.querySelector('html')
 
@@ -17,7 +17,7 @@ export default class View {
     renderError(message = this._errorMessage){
         const markup = `
                 <div class="error">
-                    <img src="./page_not_found.svg" alt="" class="w-[400px] h-[400px]" />
+                    <img src="${error}" alt="" class="w-[400px] h-[400px]" />
                     <p class="text-2xl text-center">${message}</p>
                 </div> 
             `

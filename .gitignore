@@ -4,3 +4,5 @@ node_modules
 #Parcel directory
 .parcel-cache
 dist
+
+.DS_Store
