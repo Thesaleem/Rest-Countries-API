@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .countries-btn{
+        @apply font-light w-[110px] min-h-[33px] md:w-[90px] md:min-h-[25px] text-center py-1 bg-white dark:bg-dm-db shadow-custom dark:shadow-none rounded-lg
+    }
+}
